@@ -39,5 +39,21 @@ body {
     background-size: contain;
     background-position: right;
     background-repeat: no-repeat; }
+  body .description img {
+    width: 115px;
+    margin-bottom: 30px; }
+  body .wrapper-pictures {
+    min-height: 440px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    background-image: url("../img/photosection.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; }
+
+@media (min-width: 1200px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1110px; } }
 
 /*# sourceMappingURL=custom.css.map */

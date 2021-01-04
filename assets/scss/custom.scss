@@ -77,9 +77,48 @@ body {
     background-position: right;
     background-repeat: no-repeat;
   }
-  #index-bg-1 {
-    // background-image: url('../img/Vector1.png');
-    // background-size: cover;
-    // background-position: center;
+
+  .description {
+    img {
+      width: 115px;
+      margin-bottom: 30px;
+    }
+  }
+  .wrapper-pictures {
+    min-height: 440px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    background-image: url('../img/photosection.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    // .picture-left {
+    //   background-image: url('../img/Vector3.png');
+    //   background-position: left;
+    //   background-size: cover;
+    //   background-repeat: no-repeat;
+    //   height: 100%;
+    //   width: 50vw;
+    //   position: absolute;
+    //   left: 0;
+    // }
+    // .picture-right {
+    //   background-image: url('../img/Vector2.png');
+    //   background-position: right;
+    //   background-size: cover;
+    //   background-repeat: no-repeat;
+    //   height: 100%;
+    //   width: 50vw;
+    //   position: absolute;
+    //   right: 0;
+    // }
+  }
+}
+
+
+@media (min-width: 1200px){
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+      max-width: 1110px;
   }
 }
