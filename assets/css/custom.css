@@ -1,0 +1,43 @@
+@font-face {
+  font-family: GoogleSans;
+  src: url("../fonts/GoogleSans-Regular.ttf"); }
+@font-face {
+  font-family: GoogleSans;
+  src: url("../fonts/GoogleSans-Medium.ttf");
+  font-weight: 500; }
+@font-face {
+  font-family: GoogleSans;
+  src: url("../fonts/GoogleSans-Bold.ttf");
+  font-weight: bold; }
+body {
+  font-family: 'GoogleSans'; }
+  body .bg-secondary {
+    background-color: #ef9e45 !important; }
+  body .btn {
+    border-radius: 50px; }
+  body .btn-primary {
+    background-color: #90bd3f;
+    border-color: #90bd3f; }
+  body .text-18 {
+    font-size: 18px; }
+  body .btn-check:active + .btn-primary, body .btn-check:checked + .btn-primary, body .btn-primary.active, body .btn-primary:active, body .show > .btn-primary.dropdown-toggle, body .btn-check:focus + .btn-primary, body .btn-primary:focus, body .btn-primary:hover {
+    color: #fff;
+    background-color: #6aa009;
+    border-color: #6aa009; }
+  body .navbar {
+    height: 85px; }
+    body .navbar.navbar-dark .navbar-nav .nav-link {
+      color: #fff;
+      margin-right: 20px;
+      font-size: 16px; }
+    body .navbar .navbar-brand img {
+      height: 45px;
+      margin-right: 30px; }
+  body.index .wrapper {
+    background-color: rgba(239, 158, 69, 0.06);
+    background-image: url("../img/Vector1.png");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat; }
+
+/*# sourceMappingURL=custom.css.map */

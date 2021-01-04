@@ -1,0 +1,85 @@
+$primary:       #90bd3f !default;
+$secondary:     #ef9e45 !default;
+// $success:       $green !default;
+// $info:          $cyan !default;
+// $warning:       $yellow !default;
+// $danger:        $red !default;
+// $light:         $gray-100 !default;
+// $dark:          $gray-900 !default;
+
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+
+) !default;
+
+@font-face {
+  font-family: GoogleSans;
+  src: url('../fonts/GoogleSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: GoogleSans;
+  src: url('../fonts/GoogleSans-Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: GoogleSans;
+  src: url('../fonts/GoogleSans-Bold.ttf');
+  font-weight: bold;
+}
+
+body {
+  font-family: 'GoogleSans';
+  .bg-secondary {
+    background-color: $secondary!important;
+  }
+
+  .btn {
+    border-radius: 50px;
+  }
+
+  .btn-primary {
+    background-color: $primary;
+    border-color: $primary;
+  }
+
+  .text-18 {
+    font-size: 18px;
+  }
+  .btn-check:active+.btn-primary, .btn-check:checked+.btn-primary, .btn-primary.active, .btn-primary:active, .show>.btn-primary.dropdown-toggle, .btn-check:focus+.btn-primary, .btn-primary:focus, .btn-primary:hover {
+      color: #fff;
+      background-color: #6aa009;
+      border-color: #6aa009;
+  }
+  .navbar {
+    height: 85px;
+    &.navbar-dark {
+      .navbar-nav {
+        .nav-link {
+          color: #fff;
+          margin-right: 20px;
+          font-size: 16px;
+        }
+      }
+    }
+    .navbar-brand img {
+      height: 45px;
+      margin-right: 30px;
+    }
+  }
+  &.index .wrapper {
+    background-color: rgba(239, 158, 69, 0.06);
+    background-image: url('../img/Vector1.png');
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+  #index-bg-1 {
+    // background-image: url('../img/Vector1.png');
+    // background-size: cover;
+    // background-position: center;
+  }
+}
