@@ -41,10 +41,40 @@
         </div>
       </div>
       <div class="plant1"></div>
-      <div class="plant2"></div>
+      <div class="plant2 d-none d-sm-block"></div>
     </div>
     <div class="container py-5 description">
-      <div class="row">
+      <div id="carouselExampleIndicators" class="carousel slide d-md-none" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="col-12 text-center">
+              <img src="assets/img/nuts.png" alt="">
+              <h5>Nutritional Boost</h5>
+              <p>Get the most out of every day! and support your mind sharpness with our Cheevit:D products which are carefully produced from natural ingredients such as almond and walnut to provide the essential nutrients for your body needs.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-12 text-center">
+              <img src="assets/img/delicioso.png" alt="">
+              <h5>Delightful experience and right portion</h5>
+              <p>Will make your mouth water! A captivating experience you’ll love with our delicious taste and the smooth consistency of our products. All this provided in the right portion for your daily intake of essential nutrients!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-12 text-center">
+              <img src="assets/img/icono12.png" alt="">
+              <h5>Natural, chemical free</h5>
+              <p>We promise to be unlike existing nutritional products that may fill us with chemical residues. All our products are natural, with the efficacy of nutrients and without long term effects.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row d-none d-md-flex">
         <div class="col-4 text-center">
           <img src="assets/img/nuts.png" alt="">
           <h5>Nutritional Boost</h5>
@@ -69,10 +99,42 @@
     <div class="wrapper ingredients">
       <div class="container my-5">
         <div class="row">
-          <div class="col-12">
+          <div class="col-12" style="z-index: 1;">
             <h2 class="mb-5"><strong>Our products enhance the natural goodness of almonds and walnuts’ added with ingredients high in:</strong></h2>
           </div>
-          <div class="col-xs-12 col-md-5">
+          <div id="carousel2" class="carousel slide d-md-none" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-bs-target="#carousel2" data-bs-slide-to="0" class="active"></li>
+              <li data-bs-target="#carousel2" data-bs-slide-to="1"></li>
+              <li data-bs-target="#carousel2" data-bs-slide-to="2"></li>
+              <li data-bs-target="#carousel2" data-bs-slide-to="3"></li>
+              <li data-bs-target="#carousel2" data-bs-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="col-12 text-center">
+                  <p><strong>Calcium</strong> and <strong>vitamin D</strong> these nutrients are needed to keep bones, teeth and muscles healthy.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-12 text-center">
+                  <p><strong>Vitamin E</strong> has antioxidant and anti-inflammatory properties.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-12 text-center">
+                  <p><strong>Vitamin B</strong> to boosting your energy, improving your memory, and helping prevent heart disease.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <p><strong>Vitamin C</strong> for the proper functioning of the immune system, wound healing, and the maintenance of cartilage, bones, and teeth.</p>
+              </div>
+              <div class="carousel-item">
+                <p><strong>Collagen</strong> to building and supporting many tissues, from bones and cartilage to skin, hair, eyes, and the digestive system.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-5 d-none d-md-block">
             <p><strong>Calcium</strong> and <strong>vitamin D</strong> these nutrients are needed to keep bones, teeth and muscles healthy.</p>
 
             <p><strong>Vitamin E</strong> has antioxidant and anti-inflammatory properties.</p>
@@ -82,7 +144,7 @@
             <div class="plant2"></div>
           </div>
           <div class="col-md-1"></div>
-          <div class="col-xs-12 col-md-5">
+          <div class="col-xs-12 col-md-5 d-none d-md-block">
             <p><strong>Vitamin C</strong> for the proper functioning of the immune system, wound healing, and the maintenance of cartilage, bones, and teeth.</p>
 
             <p><strong>Collagen</strong> to building and supporting many tissues, from bones and cartilage to skin, hair, eyes, and the digestive system.</p>
@@ -92,14 +154,14 @@
     </div>
     <div class="container-fluid images-band">
       <div class="row">
-        <div class="picture full col-5" style="background-image: url('assets/img/nuts-jar.png');"></div>
-        <div class="col-4">
+        <div class="picture full col-6 col-md-5" style="background-image: url('assets/img/nuts-jar.png');"></div>
+        <div class="col-6 col-md-4">
           <div class="row">
             <div class="col-12 picture half"style="background-image: url('assets/img/almonds.png');"></div>
             <div class="col-12 picture half" style="background-image: url('assets/img/nuts-spoons.png');"></div>
           </div>
         </div>
-        <div class="col-3 picture full" style="background-image: url('assets/img/nuts-stand.png');"></div>
+        <div class="d-none d-md-block col-md-3 picture full" style="background-image: url('assets/img/nuts-stand.png');"></div>
       </div>
     </div>
     <div class="wrapper">
@@ -108,22 +170,24 @@
           <div class="col-12">
             <h2 class="mb-5">Our range of products</h2>
           </div>
-          <div class="col-12 flex justify-space-between">
-            <div class="col-auto text-center">
-              <img class="product" src="assets/img/yogurt.png" alt="">
-              <h6>Drinking UHT Yogurt </h6>
-            </div>
-            <div class="col-auto text-center">
-              <img class="product" src="assets/img/milk.png" alt="">
-              <h6>RTD Milk </h6>
-            </div>
-            <div class="col-auto text-center">
-              <img class="product" src="assets/img/snackballs.png" alt="">
-              <h6>Snack Balls </h6>
-            </div>
-            <div class="col-auto text-center">
-              <img class="product" src="assets/img/dip.png" alt="">
-              <h6>Dip and Crackers</h6>
+          <div class="col-12">
+            <div class="row flex justify-space-between">
+              <div class="col-x-12 col-md-auto text-center mb-3">
+                <a href="#"><img class="product" src="assets/img/yogurt.png" alt="">
+                <h6>Drinking UHT Yogurt </h6></a>
+              </div>
+              <div class="col-x-12 col-md-auto text-center mb-3">
+                <a href="#"><img class="product" src="assets/img/milk.png" alt="">
+                <h6>RTD Milk </h6></a>
+              </div>
+              <div class="col-x-12 col-md-auto text-center mb-3">
+                <a href="#"><img class="product" src="assets/img/snackballs.png" alt="">
+                <h6>Snack Balls </h6></a>
+              </div>
+              <div class="col-x-12 col-md-auto text-center mb-3">
+                <a href="#"><img class="product" src="assets/img/dip.png" alt="">
+                <h6>Dip and Crackers</h6></a>
+              </div>
             </div>
           </div>
 
@@ -133,7 +197,7 @@
     <div class="wrapper py-5 form">
       <div class="container ">
         <div class="row">
-          <div class="col-xs-12 col-md-6 pe-5">
+          <div class="col-xs-12 col-md-6 pe-md-5">
             <h2 class="mb-4">Want to know what we are cooking in our kitchen?</h2>
             <p class="text-justify">
               Thank you for your interest! We are working hard to finalize our recipes but would love to update you as soon as they are done. Please leave your name and e-mail here so we can contact you as soon as the product is ready to buy!

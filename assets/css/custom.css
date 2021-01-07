@@ -102,50 +102,80 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center; }
-
-.images-band .picture {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; }
-  .images-band .picture.full {
-    min-height: 300px; }
-  .images-band .picture.half {
+  body .images-band .picture {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; }
+    body .images-band .picture.full {
+      min-height: 300px; }
+    body .images-band .picture.half {
+      min-height: 150px; }
+  body img.product {
+    height: 200px; }
+  body .flex {
+    display: flex !important; }
+  body .justify-space-between {
+    display: flex;
+    justify-content: space-between; }
+  body .text-justify {
+    text-align: justify; }
+  body .wrapper.form {
+    background-color: rgba(239, 158, 69, 0.06); }
+  body input.form-custom, body input.form-custom:focus {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #DB8C40;
+    border-radius: 0;
+    padding-left: 0; }
+    body input.form-custom::placeholder, body input.form-custom:focus::placeholder {
+      color: #000; }
+  body footer {
+    height: 82px;
+    background-color: #ef9e45;
+    display: flex;
+    align-items: center;
+    justify-content: left; }
+    body footer .navbar-brand img {
+      height: 42px; }
+  body .carousel-item {
+    min-height: 380px; }
+  body .carousel-indicators li {
+    background-color: #d8d8d8;
+    width: 14px;
+    height: 14px;
+    opacity: 1;
+    border-radius: 50%; }
+  body .carousel-indicators .active {
+    background-color: #ef9e45; }
+  body #carousel2 .carousel-item {
     min-height: 150px; }
 
-img.product {
-  height: 200px; }
-
-.flex {
-  display: flex !important; }
-
-.justify-space-between {
-  display: flex;
-  justify-content: space-between; }
-
-.text-justify {
-  text-align: justify; }
-
-.wrapper.form {
-  background-color: rgba(239, 158, 69, 0.06); }
-
-input.form-custom, input.form-custom:focus {
-  background-color: transparent;
-  border: none;
-  border-bottom: 2px solid #DB8C40;
-  border-radius: 0;
-  padding-left: 0; }
-  input.form-custom::placeholder, input.form-custom:focus::placeholder {
-    color: #000; }
-
-footer {
-  height: 82px;
-  background-color: #ef9e45;
-  display: flex;
-  align-items: center;
-  justify-content: left; }
-  footer .navbar-brand img {
-    height: 42px; }
-
+@media (max-width: 345px) {
+  body img.product {
+    height: 170px; } }
+@media (max-width: 576px) {
+  body.index {
+    text-align: center; }
+    body.index .wrapper.first {
+      background-color: rgba(239, 158, 69, 0.06);
+      background-image: url(../img/Vector1a.png);
+      background-size: 125%;
+      background-position: -49px top;
+      background-repeat: no-repeat;
+      position: relative; }
+      body.index .wrapper.first h1 {
+        text-align: center;
+        color: #fff; }
+    body.index .wrapper-pictures {
+      height: 350px;
+      width: 100%;
+      display: flex;
+      position: relative;
+      background-position: left;
+      background-size: cover;
+      background-repeat: no-repeat; }
+    body.index .wrapper.form p {
+      text-align: center; } }
 @media (min-width: 1200px) {
   .container, .container-lg, .container-md, .container-sm, .container-xl {
     max-width: 1060px; } }
