@@ -148,6 +148,36 @@ img.product {
   justify-content: space-between;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
+.wrapper.form {
+  background-color: rgba(239, 158, 69, 0.06);
+}
+
+input.form-custom, input.form-custom:focus {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #DB8C40;
+  border-radius: 0;
+  padding-left: 0;
+
+  &::placeholder {
+    color: #000;
+  }
+}
+
+footer {
+  height: 82px;
+  background-color: $secondary;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  .navbar-brand img{
+    height: 42px;
+  }
+}
 @media (min-width: 1200px){
   .container, .container-lg, .container-md, .container-sm, .container-xl {
       max-width: 1110px;
