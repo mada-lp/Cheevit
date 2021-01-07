@@ -105,6 +105,12 @@ body {
   &.index.no-tailored .wrapper.first {
     background-image: url('../img/couplesofa.png');
   }
+  &.index.inmunity .wrapper.first {
+    background-image: url('../img/coupleexercise.png');
+    .plant2 {
+      left: 570px;
+    }
+  }
   &.index .wrapper.ingredients {
     position: relative;
     .plant1 {

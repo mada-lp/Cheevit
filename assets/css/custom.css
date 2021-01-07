@@ -64,6 +64,10 @@ body {
       z-index: 0; }
   body.index.no-tailored .wrapper.first {
     background-image: url("../img/couplesofa.png"); }
+  body.index.inmunity .wrapper.first {
+    background-image: url("../img/coupleexercise.png"); }
+    body.index.inmunity .wrapper.first .plant2 {
+      left: 570px; }
   body.index .wrapper.ingredients {
     position: relative; }
     body.index .wrapper.ingredients .plant1 {
