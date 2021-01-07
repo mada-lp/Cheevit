@@ -38,7 +38,54 @@ body {
     background-image: url("../img/Vector1a.png");
     background-size: contain;
     background-position: right;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    position: relative; }
+    body.index .wrapper.first .plant1 {
+      background-image: url("../img/Frame.png");
+      height: 150px;
+      width: 99px;
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      left: 0px;
+      bottom: 130px;
+      position: absolute;
+      z-index: 0; }
+    body.index .wrapper.first .plant2 {
+      background-image: url("../img/brownleaf.png");
+      height: 200px;
+      width: 150px;
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      left: 400px;
+      bottom: 0px;
+      position: absolute;
+      z-index: 0; }
+  body.index .wrapper.ingredients {
+    position: relative; }
+    body.index .wrapper.ingredients .plant1 {
+      background-image: url("../img/brownleaf1.png");
+      height: 150px;
+      width: 85px;
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      left: -3px;
+      bottom: 110px;
+      position: absolute;
+      z-index: 0; }
+    body.index .wrapper.ingredients .plant2 {
+      background-image: url("../img/Group6.png");
+      height: 180px;
+      width: 84px;
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      right: 0px;
+      top: 0px;
+      position: absolute;
+      z-index: 0; }
   body .description img {
     width: 115px;
     margin-bottom: 30px; }
@@ -47,7 +94,6 @@ body {
     width: 100%;
     display: flex;
     position: relative;
-    background-image: url("../img/photosection.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat; }
@@ -102,6 +148,6 @@ footer {
 
 @media (min-width: 1200px) {
   .container, .container-lg, .container-md, .container-sm, .container-xl {
-    max-width: 1110px; } }
+    max-width: 1060px; } }
 
 /*# sourceMappingURL=custom.css.map */
