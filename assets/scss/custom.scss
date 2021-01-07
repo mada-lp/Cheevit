@@ -70,9 +70,9 @@ body {
       margin-right: 30px;
     }
   }
-  &.index .wrapper {
+  &.index .wrapper.first {
     background-color: rgba(239, 158, 69, 0.06);
-    background-image: url('../img/Vector1.png');
+    background-image: url('../img/Vector1a.png');
     background-size: contain;
     background-position: right;
     background-repeat: no-repeat;
@@ -114,8 +114,39 @@ body {
     //   right: 0;
     // }
   }
+
+  #bottle-bg {
+    background-image: url('../img/Group9.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
 
+.images-band .picture{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  &.full{
+    min-height: 300px;
+  }
+  &.half{
+    min-height: 150px;
+  }
+}
+
+img.product {
+  height: 200px;
+}
+
+.flex {
+  display: flex !important;
+}
+
+.justify-space-between {
+  display: flex;
+  justify-content: space-between;
+}
 
 @media (min-width: 1200px){
   .container, .container-lg, .container-md, .container-sm, .container-xl {
