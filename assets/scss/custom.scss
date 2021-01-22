@@ -46,6 +46,9 @@ body {
     border-color: $primary;
   }
 
+  .beige-bg {
+    background: #FEF9F4;
+  }
   .text-18 {
     font-size: 18px;
   }
@@ -70,6 +73,10 @@ body {
       margin-right: 30px;
     }
   }
+  .navbar-dark .navbar-toggler {
+      color: #fff;
+      border-color: transparent;
+  }
   &.index .wrapper.first {
     background-color: rgba(239, 158, 69, 0.06);
     background-image: url('../img/Vector1a.png');
@@ -78,6 +85,7 @@ body {
     background-repeat: no-repeat;
     position: relative;
     .plant1 {
+      display: block;
       background-image: url('../img/Frame.png');
       height: 150px;
       width: 99px;
@@ -105,7 +113,7 @@ body {
   &.index.no-tailored .wrapper.first {
     background-image: url('../img/couplesofa.png');
   }
-  &.index.inmunity .wrapper.first {
+  &.index.immunity .wrapper.first {
     background-image: url('../img/coupleexercise.png');
     .plant2 {
       left: 570px;
@@ -275,9 +283,15 @@ body {
 @media (max-width: 576px) {
   body.index {
     text-align: center;
+    .navbar {
+        height: 51px;
+        .navbar-brand img {
+            height: 29px;
+        }
+    }
     .wrapper.first {
       background-color: rgba(239, 158, 69, 0.06);
-      background-image: url(../img/Vector1a.png);
+      background-image: url('../img/Vector1a.png');
       background-size: 125%;
       background-position: -49px top;
       background-repeat: no-repeat;
@@ -299,6 +313,45 @@ body {
     }
     .wrapper.form p{
       text-align: center;
+    }
+
+    &.immunity {
+      .wrapper.first {
+        background-image: url('../img/landscape.png');
+        background-size: contain;
+        background-position: center 0;
+        background-color: #fff;
+
+        h1 {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          img {
+            margin-right: -10px;
+          }
+        }
+        .plant1 {
+          display: none;
+        }
+      }
+      .carousel-item {
+        min-height: 120px;
+      }
+    }
+
+    .wrapper#couplerunning {
+      background-image: url('../img/coupleexercisefull.png');
+      height: 199px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    .wrapper#nutsjar {
+      background-image: url('../img/nuts-jar2.png');
+      height: 169px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
     }
   }
 }
