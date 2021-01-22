@@ -32,7 +32,7 @@ $theme-colors: (
 }
 
 body {
-  font-family: 'GoogleSans';
+  font-family: 'GoogleSans', 'Prompt', sans-serif;
   .bg-secondary {
     background-color: $secondary!important;
   }
@@ -337,6 +337,22 @@ body {
       .carousel-item {
         min-height: 120px;
       }
+
+      &.pure {
+        .wrapper.first {
+          background-image: url('../img/victory.png');
+          h1 {
+            margin-right: 2rem;
+          }
+        }
+      }
+
+      &.mobility {
+        .wrapper.first {
+          background-image: url('../img/runningwoods.png');
+
+        }
+      }
     }
 
     .wrapper#couplerunning {
@@ -349,6 +365,22 @@ body {
     .wrapper#nutsjar {
       background-image: url('../img/nuts-jar2.png');
       height: 169px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    .wrapper#couplecooking {
+      background-image: url('../img/couplecooking.png');
+      height: 230px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    .wrapper#couplehiking {
+      background-image: url('../img/hiking.png');
+      height: 230px;
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;

@@ -10,7 +10,7 @@
   src: url("../fonts/GoogleSans-Bold.ttf");
   font-weight: bold; }
 body {
-  font-family: 'GoogleSans'; }
+  font-family: 'GoogleSans', 'Prompt', sans-serif; }
   body .bg-secondary {
     background-color: #ef9e45 !important; }
   body .btn {
@@ -210,6 +210,12 @@ body {
         display: none; }
     body.index.immunity .carousel-item {
       min-height: 120px; }
+    body.index.immunity.pure .wrapper.first {
+      background-image: url("../img/victory.png"); }
+      body.index.immunity.pure .wrapper.first h1 {
+        margin-right: 2rem; }
+    body.index.immunity.mobility .wrapper.first {
+      background-image: url("../img/runningwoods.png"); }
     body.index .wrapper#couplerunning {
       background-image: url("../img/coupleexercisefull.png");
       height: 199px;
@@ -219,6 +225,18 @@ body {
     body.index .wrapper#nutsjar {
       background-image: url("../img/nuts-jar2.png");
       height: 169px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center; }
+    body.index .wrapper#couplecooking {
+      background-image: url("../img/couplecooking.png");
+      height: 230px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center; }
+    body.index .wrapper#couplehiking {
+      background-image: url("../img/hiking.png");
+      height: 230px;
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center; } }
